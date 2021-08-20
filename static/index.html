@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <title>My Resume</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Welcome to my HNG i8 second task<br>
+    View the repo for the backend  <b><a href=${process.env.BACKEND_REPO}>here</a></b><br>
+    View the repo for the frontend <b><a href=${process.env.FRONTEND_REPO}>here</a></b><br>
+    View rhe front end website <b><a href=${process.env.CLIENT_URL}>here</a></b><br> -->
+    <div class = "resume">
+        <h1 align = "center">OSEMUDIAMEN ITUA</h1>
+        <h2>EXPERIENCE</h2>
+        <hr>
+        <a href="https://zuri.team/"><span class="subheader"><b>HNG i8</b></span></a> <img src="./hng.png" alt="" height="20px">
+        <br>
+        <i>Backend Developer</i><br>
+        <ul>
+            <li>Worked on backend tasks</li>
+        </ul>
+    </div>
+    <div class="contact-me">
+        <h2>Contact Me</h2>
+        <hr>
+        <form action="/response" method="POST">
+            <input name="name" type="text"  placeholder="Last Name" required="true"><br>
+            <input name="email" type="text"  placeholder="Email address" required="true"><br>
+            <input name="subject" type="text" placeholder="Subject" required="true"><br>
+            <textarea class = "form-input-text-area" name="message" rows="10" placeholder="Type your message here" required="true"></textarea><br>
+            <input type="submit" id="submit-form" value="Send message" >
+        </form>
+       
+    </div>
+</body>

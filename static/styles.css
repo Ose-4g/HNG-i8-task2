@@ -1,0 +1,21 @@
+body{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+textarea{margin-top: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.subheader{
+    font-size: 24px;
+}
