@@ -14,8 +14,39 @@ textarea{margin-top: 5px;
     margin-bottom: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
+    width:100%
 }
 
 .subheader{
-    font-size: 24px;
+    font-size: 20px;
+}
+
+.right{
+    float: right;
+}
+
+hr{
+    margin-top: 2px;
+}
+
+h2{
+    margin-bottom: 0px;
+}
+
+.input{
+    width: 100%;
+}
+
+.hng-logo{
+    margin-right: 20%;
+    height: 80px;
+}
+
+.zuri-logo{
+
+    height: 80px;
+}
+
+.footer{
+    margin-top: 80px;
 }
